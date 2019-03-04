@@ -1,0 +1,62 @@
+<!-- BEGIN C-LAYOUT-FOOTER -->
+<footer class="c-layout-footer">
+  <div class="c-prepfooter">
+    <div class="container">
+      <div class="row">
+             <div class="col-md-4 col-sm-6">
+          <p>
+            <img src="/img/footers/immerse-project-logo_hi-res.jpeg" />
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-6">
+          <p>
+          <p>
+            This project has received funding from the European Union’s Horizon 2020 research and innovation programme under grant agreement No 821926.
+          </p>
+        </div>
+        <div class="col-md-3 col-sm-6">
+          <p align="right">
+            <img src="/img/footers/ec-logo-st-rvb-web_en.jpg" />
+          </p>
+        </div>
+<!-- Do not display this at the moment
+        <div class="col-md-3 col-sm-6">
+          <p>
+              Unless otherwise indicated, all material created by the IMMERSE  consortium is licensed under a Creative Commons Attribution 4.0 International License.
+              <br/>
+              <center>
+                <a target="blank" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Licencia de Creative Commons" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
+              </center>
+          </p>
+        </div>
+-->     
+      </div>
+    </div>
+  </div>
+  
+  <!-- /.c-postfooter -->
+ {{ with .Site.GetPage "privacy.md" }}
+  <p class="powered-by">
+    {{ printf "<a href=\"%s\">%s</a>" .RelPermalink .Title | safeHTML }}
+  </p>
+  {{ end }}
+
+  <p class="powered-by">
+    {{ with .Site.Copyright }}{{ . | markdownify}} &middot; {{ end }}
+
+    Powered by the
+    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    {{ if ne .Type "docs" }}
+    <span class="float-right" aria-hidden="true">
+      <a href="#" id="back_to_top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    {{ end }}
+  </p>
+</footer>
+<!-- END C-LAYOUT-FOOTER -->

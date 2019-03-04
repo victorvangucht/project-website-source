@@ -1,0 +1,126 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[main]]
+  name = "Home"
+  url = "#about"
+  weight = 1
+
+[[main]]
+  name = "Project"
+  url = "project"
+  weight = 2
+
+[[main]]
+  name = "Objectives"
+  parent = "Project"
+  url = "#about"
+  weight = 1
+
+[[main]]
+  name = "Methodology"
+  parent = "Project"
+  url = "#activities"
+  weight = 2
+
+[[main]]
+  name = "Partners"
+  parent = "Project"
+  url = "#partners"
+  weight = 3
+
+[[main]]
+  name = "Contact"
+  parent = "Project"
+  url = "#contact"
+  weight = 4
+
+[[main]]
+  name = "People"
+  url = "people"
+  weight = 3
+
+[[main]]
+  name = "Coordination board"
+  parent = "People"
+  url = "people/coordination-board"
+  weight = 1
+
+[[main]]
+  name = "Executive board"
+  parent = "People"
+  url = "people/executive-board"
+  weight = 2 
+
+[[main]]
+  name = "Advisory board"
+  parent = "People"
+  url = "people/advisory-board"
+  weight = 3 
+
+[[main]]
+  name = "Dissemination"
+  url = "#projects"
+  weight = 4
+
+[[main]]
+  name = "NEMO test cases"
+  parent = "Dissemination"
+  url = "nemo-test-cases"
+  weight = 1
+
+[[main]]
+  name = "Prototype CMEMS systems"
+  parent = "Dissemination"
+  url = "prototype-cmems-systems"
+  weight = 2
+
+[[main]]
+  name = "Downstream use cases"
+  parent = "Dissemination"
+  url = "downstream-use-cases"
+  weight = 3
+
+[[main]]
+  name = "Publications"
+  parent = "Dissemination"
+  url = "publications"
+  weight = 4 
+
+[[main]]
+  name = "Deliverables"
+  parent = "Dissemination"
+  url = "deliverables"
+  weight = 5
+
+[[main]]
+  name = "Tools"
+  url = "#tous"
+  weight = 5
+
+[[main]] 
+  name = "Communication toolkit"
+  parent = "Tools"
+  url = "#tools/communication-toolkit"
+  weight = 1 
+  
+[[main]]
+  name = "Mattermost"
+  parent = "Tools"
+  url = "https://chat.immerse-ocean.eu/login "
+  weight = 2
+
+[[main]]
+  name = "NEMO forge"
+  parent = "Tools"
+  url = "http://forge.ipsl.jussieu.fr/nemo/wiki/Users"
+  weight = 3
+
+
+[[main]]
+  name = "News"
+  url = "#posts"
+  weight = 6
+
