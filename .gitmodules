@@ -1,0 +1,4 @@
+[submodule "public"]
+	path = public
+	url = https://github.com/immerse-project/immerse-project.github.io.git
+	branch = master
