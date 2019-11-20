@@ -103,7 +103,7 @@
 [[main]] 
   name = "Communication toolkit"
   parent = "Tools"
-  url = "#tools/communication-toolkit"
+  url = "doc/IMMERSE Communication toolkit.pdf"
   weight = 1 
   
 [[main]]
